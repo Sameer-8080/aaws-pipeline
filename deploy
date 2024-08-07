@@ -3,7 +3,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: "t2.micro"
-      AvailabilityZone: "ap-south-1"
+      AvailabilityZone: "ap-south-1a"
       KeyName: "AWSDevops"
       ImageId: "ami-0ad21ae1d0696ad58"
       Tags: 
