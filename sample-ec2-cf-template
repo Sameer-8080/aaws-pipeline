@@ -3,9 +3,9 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: "t2.micro"
-      AvailabilityZone: "us-east-1a"
-      KeyName: "Sameer"
-      ImageId: "ami-04a81a99f5ec58529"
+      AvailabilityZone: "ap-south-1"
+      KeyName: "AWSDevops"
+      ImageId: "ami-0ad21ae1d0696ad58"
       Tags: 
       - Key: Name
         Value: CF-Instance
