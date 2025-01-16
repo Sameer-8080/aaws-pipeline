@@ -15,7 +15,6 @@ phases:
       - zip hello.zip ./index.html 
    
 artifacts:
-  type: 
   files:
     - index.html
     - appspec.yml
