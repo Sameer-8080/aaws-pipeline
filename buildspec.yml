@@ -5,8 +5,8 @@ phases:
     runtime-versions:
       nodejs: 20
     commands:
+      - apt update 
       - apt install -y unzip
-      - apt update
       - apt install openjdk-17-jdk -y
 
   build:
